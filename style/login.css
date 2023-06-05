@@ -41,29 +41,29 @@ nav .navbar h1 a{
   text-decoration: none;
   color: var(--font);
 }
-.register{
+.login{
   padding-top: 60px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 100vh;
 }
-.register .container1{
+.login .container1{
   width: 45%;
   height: 80vh;
-  background-image: url(../imgs/loginhero.png);
+  background-image: url(../asets/imgs/loginhero.png);
   border-radius: 0 20px 20px 0;
 }
-.register .container2{
+.login .container2{
   width: 45%;
   height: 80vh;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   border-radius: 20px 0 0 20px;
   flex-direction: column;
   justify-content: center;
 }
-.register .container2 input{
+.login .container2 input{
   width: 335px;
   align-self: center;
   outline: none;
@@ -73,7 +73,7 @@ nav .navbar h1 a{
   height: 53px;
   padding: 10px;
 }
-.register .container2 button{
+.login .container2 button{
   width: 335px;
   height: 53px;
   margin-top: 10px;
@@ -81,11 +81,11 @@ nav .navbar h1 a{
   padding: 10px;
 
 }
-.register .container2 label{
+.login .container2 label{
   font-size: 20px;
   margin-left: 135px;
   font-weight: 500;
 }
-.register .container2 h1{
+.login .container2 h1{
   align-self: center;
 }
