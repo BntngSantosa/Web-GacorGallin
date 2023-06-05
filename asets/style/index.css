@@ -1,0 +1,45 @@
+:root {
+  --bg: #ffffff;
+  --font: #202020;
+  --bg-card: #0000ff;
+  --bg-card2: #e7e7e7;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #202020;
+  /* margin-bottom: 2000px; */
+}
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 5px 5%;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navbar .action {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .navbar .action button a{
+  color: var(--bg);
+  text-decoration: none;
+}
+.col-10 img{
+  border-radius: 20px;
+}
+main .hero{
+  padding-top: 70px;
+}
